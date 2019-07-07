@@ -11,7 +11,11 @@ const PhotoItem = ({ url, title }) => {
         }}
         style={styles.image}
       />
-     <Text style={styles.title}>{title}</Text>
+      <View style={styles.outsideContainer}>
+        <View style={styles.title}>
+          <Text>{title}</Text>
+        </View>
+      </View>
     </View>
   );
 };
