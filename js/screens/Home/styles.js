@@ -8,11 +8,12 @@ const styles = StyleSheet.create({
     marginLeft: "auto",
     marginRight: "auto"
   },
-  list: {
-    height: 200
+  loadingContainer: {
+    height: 200,
+    justifyContent: "center",
+    alignItems: "center"
   },
-  image: {
-    width: 200,
+  list: {
     height: 200
   },
   button: {
